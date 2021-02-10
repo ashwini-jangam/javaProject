@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [suite1]" parallel="classes">
+  <test thread-count="3" name="test1(failed)" parallel="classes">
+    <classes>
+      <class name="TestNG.FlipkartTestNG">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="SearchItem"/>
+          <include name="CloseBrowser"/>
+          <include name="Logout"/>
+          <include name="addToCartItem"/>
+        </methods>
+      </class> <!-- TestNG.FlipkartTestNG -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->

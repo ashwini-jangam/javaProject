@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="108077" started-at="2019-09-04T05:49:31Z" finished-at="2019-09-04T05:51:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="108077" started-at="2019-09-04T05:49:31Z" finished-at="2019-09-04T05:51:19Z">
+      <class name="TestNG.FlipkartTestNG">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:TestNG.FlipkartTestNG@b51256]" name="launchbrowser" is-config="true" duration-ms="49958" started-at="2019-09-04T05:49:31Z" finished-at="2019-09-04T05:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestNG.FlipkartTestNG@b51256]" name="Login" duration-ms="6446" started-at="2019-09-04T05:50:21Z" finished-at="2019-09-04T05:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SearchItem()[pri:1, instance:TestNG.FlipkartTestNG@b51256]" name="SearchItem" duration-ms="12520" started-at="2019-09-04T05:50:28Z" finished-at="2019-09-04T05:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="addToCartItem()[pri:2, instance:TestNG.FlipkartTestNG@b51256]" name="addToCartItem" duration-ms="29049" started-at="2019-09-04T05:50:40Z" finished-at="2019-09-04T05:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartItem -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:TestNG.FlipkartTestNG@b51256]" name="Logout" duration-ms="8544" started-at="2019-09-04T05:51:09Z" finished-at="2019-09-04T05:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestNG.FlipkartTestNG@b51256]" name="CloseBrowser" is-config="true" duration-ms="967" started-at="2019-09-04T05:51:18Z" finished-at="2019-09-04T05:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNG.FlipkartTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

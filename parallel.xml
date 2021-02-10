@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ='suite1' parallel="tests">
+<test thread-count="1" name="flipkart">
+<classes>
+	<class name="TestNG.FlipkartTestNG" />
+</classes>
+</test>
+<test name="snapdeal">
+<classes>
+	<class name="TestNG.SanpdealTestNG" />
+</classes>
+</test>
+</suite>
+<!--parallel ='tests' execute test waise -->
